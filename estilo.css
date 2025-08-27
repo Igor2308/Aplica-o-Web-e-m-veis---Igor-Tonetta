@@ -1,0 +1,44 @@
+body { /*Define a cor do fundo como cinza e todas as fontes como Times New Roman*/
+background-color: grey;
+font-family: 'Times New Roman', Times, serif
+} 
+
+h2 { /*Usei para deixar meu texto alinhado e centralizado*/
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul { /*Deixa os botões de cima alinhados, com a mesma fonte e com uma margem*/
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 16px;
+    font-size: 35px;
+}
+
+a { /*Cria a borda nos botões e deixa eles estilizados*/
+    color: dodgerblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: white;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+nav a:hover{ /*Muda a cor do texto dos botões quando o cursos passa por cima*/
+    color: black;
+}
+
+form { /*Ajusta o formulário para entrar em contato*/
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 180px;
+    scale: 250%;
+}
